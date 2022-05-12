@@ -1,10 +1,11 @@
 name: linter-check
 on: push
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: make lint
+    - uses: actions/checkout@v2
+    - name: ESLint test configured by Airbnb
+      run: make lint
 
   
