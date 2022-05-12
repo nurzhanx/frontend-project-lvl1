@@ -1,7 +1,7 @@
 import gameLogic from './gameLogic.js';
 import welcomeUser from './cli.js';
 
-const brainEvenGame = () => {
+const brainEven = () => {
   const introMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
   const pairs = [];
 
@@ -19,4 +19,4 @@ const brainEvenGame = () => {
   gameLogic(playerName, introMessage, pairs);
 };
 
-export default brainEvenGame;
+export default brainEven;
