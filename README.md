@@ -4,3 +4,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 [![linter-check](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml)
+
+### Asciinema
+<script id="asciicast-LNPalJ73b3a9AAzMtyp1EmQb5" src="https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5.js" async></script>
