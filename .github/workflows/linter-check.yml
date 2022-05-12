@@ -1,11 +1,19 @@
 name: linter-check
 on: push
 jobs:
-  build:
+  eslint:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
     steps:
     - uses: actions/checkout@v2
     - name: ESLint test configured by Airbnb
-      run: make lint
+      uses: actions/setup-node@v2
+      with: 
+        node-version: ${{ matrix.node-version }}
+        cache: npm
+    - run: make install
+    - run: make lint
 
   
