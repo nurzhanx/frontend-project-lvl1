@@ -6,4 +6,5 @@
 [![linter-check](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml)
 
 ### Asciinema
-https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5
+* brain-even: https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5
+* brain-calc: https://asciinema.org/a/nzKM27y2lxgn8biKXXmi1TUTj
