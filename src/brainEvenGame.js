@@ -1,29 +1,22 @@
-import readlineSync from 'readline-sync';
+import gameLogic from './gameLogic.js';
+import welcomeUser from './cli.js';
 
-const brainEvenGame = (playerName) => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  let winOrLoose = true;
+const brainEvenGame = () => {
+  const introMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
+  const pairs = [];
 
   for (let i = 0; i < 3; i += 1) {
+    const pair = [];
     const number = Math.floor(Math.random() * 100);
-    console.log(`Question: ${number}`);
-    const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = (number % 2 === 0) ? 'yes' : 'no';
 
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer is '${correctAnswer}'.`);
-      winOrLoose = false;
-      break;
-    }
+    pair.push(number);
+    pair.push(correctAnswer);
+    pairs.push(pair);
   }
 
-  if (winOrLoose) {
-    console.log(`Congratulations, ${playerName}!`);
-  } else {
-    console.log(`Let's try again, ${playerName}!`);
-  }
+  const playerName = welcomeUser();
+  gameLogic(playerName, introMessage, pairs);
 };
 
 export default brainEvenGame;
