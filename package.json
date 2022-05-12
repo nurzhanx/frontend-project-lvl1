@@ -18,6 +18,6 @@
   "type": "module",
   "homepage": "https://github.com/nwrzhan/frontend-project-lvl1#readme",
   "bin": {
-    "code": "bin/brain-games.js"
+    "bin": "bin/brain-games.js",
   }
 }
