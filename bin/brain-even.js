@@ -1,8 +1,7 @@
-import helloUser from '../src/cli.js';
+#!/usr/bin/env node
+import welcomeUser from '../src/cli.js';
 import brainEvenGame from '../src/brainEvenGame.js';
 
-console.log('Welcome to the Brain Games!');
-
-const userName = helloUser();
+const userName = welcomeUser();
 
 brainEvenGame(userName);
