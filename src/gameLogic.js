@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
+import welcomeUser from './cli.js';
 
-const gameLogic = (playerName, introMessage, pairs) => {
+const gameLogic = (introMessage, pairs) => {
+  const playerName = welcomeUser();
   let winOrLoose = true;
 
   console.log(introMessage);

@@ -1,13 +1,11 @@
 import gameLogic from '../gameLogic.js';
-import welcomeUser from '../cli.js';
 
 const brainProgression = () => {
-  const playerName = welcomeUser();
   const introMessage = 'What number is missing in the progression?';
   const pairs = [];
 
   for (let i = 0; i < 3; i += 1) {
-    const step = Math.floor(Math.random() * 10);
+    const step = Math.floor(Math.random() * 100);
     const progressionLength = Math.floor(Math.random() * 6) + 5;
     const progression = [];
     const pair = [];
@@ -29,7 +27,7 @@ const brainProgression = () => {
     pairs.push(pair);
   }
 
-  gameLogic(playerName, introMessage, pairs);
+  gameLogic(introMessage, pairs);
 };
 
 export default brainProgression;

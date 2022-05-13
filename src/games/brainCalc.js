@@ -1,8 +1,6 @@
 import gameLogic from '../gameLogic.js';
-import welcomeUser from '../cli.js';
 
 const brainCalc = () => {
-  const playerName = welcomeUser();
   const introMessage = 'What is the result of the expression?';
   const pairs = [];
 
@@ -34,7 +32,7 @@ const brainCalc = () => {
     pairs.push(pair);
   }
 
-  gameLogic(playerName, introMessage, pairs);
+  gameLogic(introMessage, pairs);
 };
 
 export default brainCalc;

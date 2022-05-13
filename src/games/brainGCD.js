@@ -1,8 +1,6 @@
 import gameLogic from '../gameLogic.js';
-import welcomeUser from '../cli.js';
 
 const brainGCD = () => {
-  const playerName = welcomeUser();
   const introMessage = 'Find the greatest common divisor of given numbers.';
   const pairs = [];
 
@@ -23,7 +21,7 @@ const brainGCD = () => {
     pairs.push(pair);
   }
 
-  gameLogic(playerName, introMessage, pairs);
+  gameLogic(introMessage, pairs);
 };
 
 export default brainGCD;

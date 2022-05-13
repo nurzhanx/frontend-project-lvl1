@@ -1,5 +1,4 @@
 import gameLogic from '../gameLogic.js';
-import welcomeUser from '../cli.js';
 
 const brainEven = () => {
   const introMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -15,8 +14,7 @@ const brainEven = () => {
     pairs.push(pair);
   }
 
-  const playerName = welcomeUser();
-  gameLogic(playerName, introMessage, pairs);
+  gameLogic(introMessage, pairs);
 };
 
 export default brainEven;
