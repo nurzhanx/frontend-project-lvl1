@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "nurzhanx-frontend-lvl1",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/nurzhanx/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/nwrzhan/frontend-project-lvl1/actions)",
   "main": "index.js",
@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": ["minigames", "hexlet"],
   "bugs": {
     "url": "https://github.com/nurzhanx/frontend-project-lvl1/issues"
   },
