@@ -1,5 +1,5 @@
-import gameLogic from './gameLogic.js';
-import welcomeUser from './cli.js';
+import gameLogic from '../gameLogic.js';
+import welcomeUser from '../cli.js';
 
 const brainEven = () => {
   const introMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
