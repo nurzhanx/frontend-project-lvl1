@@ -6,7 +6,8 @@
 [![linter-check](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg?branch=main)](https://github.com/nurzhanx/frontend-project-lvl1/actions/workflows/linter-check.yml)
 
 ### Asciinema
-* brain-even: https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5
+* brain-even: 
+[<img src="./asciinema/brain-even.svg">](https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5)
 * brain-calc: https://asciinema.org/a/nzKM27y2lxgn8biKXXmi1TUTj
 * brain-gcd:  https://asciinema.org/a/q3iGUshUYckn3mwXnsteZ8gy5
 * brain-progression: https://asciinema.org/a/f2k8ndaWzwUORMFdCDfBlilhZ
