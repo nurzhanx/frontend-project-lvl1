@@ -8,3 +8,4 @@
 ### Asciinema
 * brain-even: https://asciinema.org/a/LNPalJ73b3a9AAzMtyp1EmQb5
 * brain-calc: https://asciinema.org/a/nzKM27y2lxgn8biKXXmi1TUTj
+* brain-gcd:  https://asciinema.org/a/q3iGUshUYckn3mwXnsteZ8gy5
