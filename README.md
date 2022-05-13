@@ -10,3 +10,7 @@
 * brain-calc: https://asciinema.org/a/nzKM27y2lxgn8biKXXmi1TUTj
 * brain-gcd:  https://asciinema.org/a/q3iGUshUYckn3mwXnsteZ8gy5
 * brain-progression: https://asciinema.org/a/f2k8ndaWzwUORMFdCDfBlilhZ
+* brain-prime: https://asciinema.org/a/7SSjEvCf7t8pwH4pMLSx7pQht
+
+### Usage
+```sudo npm install -g nurzhanx-frontend-lvl1```
